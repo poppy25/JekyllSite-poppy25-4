@@ -12,15 +12,19 @@
 /**************/
 /* BASE RULES */
 /**************/
+style {@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+}
 
 html {
   font-size: 100%;
+  font-family: 'Cormorant+Upright';
 }
+
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font-family: 'Cormorant+Upright';
+  color: black;
 }
 
 .container {
@@ -31,10 +35,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
+  font-family:'Cormorant+Upright';
+  color: black;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -163,7 +165,7 @@ img {
   }
 }
 
-.site-avatar {
+/*.site-avatar {
   float: left;
   width: 70px;
   height: 70px;
@@ -178,10 +180,11 @@ img {
   img {
     border-radius: 5px;
   }
-}
+}*/
 
 .site-info {
-  float: left;
+  text-align: center;
+  float: inherit;
 
   @include mobile {
     float: none;
@@ -194,7 +197,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'Cormorant+Upright';
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +216,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'Cormorant+Upright';
   font-size: 18px;
 
   @include mobile {
@@ -304,4 +307,5 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import url('https://fonts.google.com/specimen/Cormorant+Upright?query=cormorant#standard-styles');
 
