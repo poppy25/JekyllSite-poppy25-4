@@ -157,9 +157,9 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid $lightGray;
-
+  
   @include mobile {
     text-align: center;
   }
@@ -195,18 +195,18 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: rgb(70, 67, 73);
   cursor: pointer;
   font-family: 'Cormorant+Upright';
-  font-weight: 300;
-  font-size: 28px;
+  /*font-weight: normal;*/
+  font-size: 80px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  margin: -30px 0 0 0;
+  color: rgb(70, 67, 73);
+  font-size: 30px;
 
   @include mobile {
     margin: 3px 0;
@@ -217,7 +217,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: 'Cormorant+Upright';
-  font-size: 18px;
+  font-size: 22px;
 
   @include mobile {
     float: none;
@@ -286,26 +286,9 @@ footer {
   text-align: center;
 }
 
-.posts .project {
-  width: 200px;
-  display: inline-block;
-  margin: 1em;
-}
-
-.posts .project > .thumb {
-  width: 200px;
-  height: 120px;
-  background: orange;
-}
-
-.project h3 {
-  font-size: 0.8em;
-  text-align: center;
-}
-
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-@import url('https://fonts.google.com/specimen/Cormorant+Upright?query=cormorant#standard-styles');
 
+@import "custom";
