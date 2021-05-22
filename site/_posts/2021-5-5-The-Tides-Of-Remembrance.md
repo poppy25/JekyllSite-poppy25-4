@@ -8,3 +8,6 @@ img: /images/colour-final.jpeg
 
 The Tides of Remembrance was premiered in 2021 at Sarah Fouhy's BFA Graduation Recital. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rLwTzGahfqw?start=871" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
