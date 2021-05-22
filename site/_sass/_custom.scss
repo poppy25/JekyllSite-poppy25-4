@@ -5,6 +5,7 @@ nav {
   margin-top: 30px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
+
 }
 
 .posts {
@@ -21,7 +22,8 @@ nav {
 .posts .project > .thumb {
   // width: 200px;
   height: 180px;
-  // background: orange;
+  outline: 8px solid lightgrey;
+ 
 }
 
 .project h3 {
