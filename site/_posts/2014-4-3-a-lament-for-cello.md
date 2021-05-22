@@ -1,6 +1,7 @@
 ---
 layout: post
 title: a lament for cello
+img: images/lament-cello.jpeg 
 
 # img: 
 #  src: /images/colour-final.jpeg
